@@ -8,11 +8,13 @@
     "http-proxy-middleware": "^1.0.5",
     "morgan": "^1.10.0",
     "subdomain-router": "0.1.3",
-    "http-proxy": "1.18.1"
+    "http-proxy": "1.18.1",
+    "redbird": "0.10.0"
   },
   "scripts": {
     "start": "node index.js",
     "start-subdomain": "node subdomainRouter.js",
-    "start-http-reverse-proxy": "node http-reverse-proxy.js"
+    "start-http-reverse-proxy": "node http-reverse-proxy.js",
+    "start-rebird-reverse-proxy": "node redbird.js"
   }
 }
